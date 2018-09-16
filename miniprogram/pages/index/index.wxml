@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view > 
+        <view class='imgs'>
+                <image src="{{userimage}}" class='img' mode="aspectFit"/>
+        </view>
+        
+        <button class="button" id="fetchImgBtn" bindtap='getimage'>Fetch face</button>
+        <button id="fetchImgBtn" bindtap='getface'>Face Distinguish</button>
+        <view class='footer'><p id="age" class="is-size-4" wx:if="{{age}}">age: {{age}}</p></view>
+        
+        <p id="gender" class="is-size-4"></p>
+</view>
