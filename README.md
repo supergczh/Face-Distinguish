@@ -1,1 +1,1 @@
-# Face-Distinguish
+# 简单的面部识别小程序demo
