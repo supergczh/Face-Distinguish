@@ -19,7 +19,7 @@ onLoad: function() {
 getface(){
       let payload  = { "image" : this.data.userimage,'image_type':"URL", 'face_field':'age'};
       wx.request({
-        url: 'https://aip.baidubce.com/rest/2.0/face/v3/detect?access_token=24.918e52688aabb5f005ff11f728db0d46.2592000.1539696233.282335-11783490',
+        url: 'https://aip.baidubce.com/rest/2.0/face/v3/detect?access_token=',
         method: 'POST',
         data:JSON.stringify(payload),    //参数为键值对字符串
         header: {
